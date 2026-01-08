@@ -5,3 +5,39 @@
    
 }
 /* share elements */
+.btn {
+    width: 164px;
+height: 44px;
+padding: 12px 16px 12px 16px;
+border-radius: 4px;
+ background: #30B868;
+  color:  white;
+ font-style: Semi Bold;
+font-size: 16px;
+}
+.btn:hover{
+    background: lightsalmon;
+}
+
+.space{
+    max-width: 1170px;
+    margin: auto;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    align-items: center;
+}
+.link-parent{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-style: Medium;
+    text-transform: capitalize;
+   
+}
+.link-parent a{
+    text-decoration: none;
+     color: #000000;
+}
