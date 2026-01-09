@@ -113,3 +113,147 @@ text-align: center;
     color:blueviolet;
      cursor: pointer; 
      }
+.motivation{
+ width: 1170px;
+height: 152px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+padding-top: 30px;
+gap: 20px;
+
+}
+.motivation h2{ 
+    font-size: 48px;
+    font-weight: bold;
+
+}
+.motivati p{
+    color: #627382;
+    font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+}
+.card-info{
+    width: 150px;
+height: 180px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 16;
+padding: 30px;
+border-radius: 8px;
+box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.08);
+background: rgba(255, 255, 255, 1);
+}
+.card-info:hover{
+    color: rgb(157, 121, 74);
+    cursor: pointer;
+}
+.card-info h3{
+    padding-bottom: 15px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.brain-structure{
+    width: 900px;
+height: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 120px
+}
+.brain-info{
+    width: 1360px;
+height: 600px;
+    padding-left: 60px;
+}
+.brain-info h3{
+    font-size: 28px;
+}
+.brain-info p{
+    font-size: 10px;
+    text-align: left;
+}
+
+
+.point{
+    padding: 40px 0px 0px 0px;
+    font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+    display: flex;
+flex-direction: column;
+gap: 16px;
+   
+}
+.point li{
+    list-style: none;   
+}
+.point a{
+    text-decoration: none;
+    color: rgba(0, 25, 49, 1);  
+}
+
+.brain-section {
+  width: 100%;
+  padding: 120px 20px;
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+background: rgba(247, 246, 242, 1);
+}
+.brain-section:hover{
+    color: #555;
+}
+
+.brain-box {
+  max-width: 700px;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}
+
+
+.brain-box h2 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.brain-text {
+  font-size: 18px;
+  color: #555;
+  max-width: 600px;
+}
+
+.brain-btn {
+  background: #1fa36b;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+.brain-btn:hover{
+    color:burlywood;
+}
+
+.brain-note {
+  font-size: 14px;
+  color: #777;
+}
