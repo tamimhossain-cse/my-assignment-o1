@@ -4,6 +4,12 @@
     padding: 0;
    
 }
+/* font family */
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  
+}
 /* share elements */
 .btn {
     width: 167px;
@@ -182,7 +188,7 @@ height: 600px;
 }
 
 .brain-info{
-    width: 1360px;
+    width: 50%;
 height: 600px;
     padding-left: 60px;
 }
@@ -268,4 +274,46 @@ background: rgba(247, 246, 242, 1);
   font-size: 14px;
   color: #777;
 }
+.footer{
+    margin-top: 120px;
+    background: var(--Style, rgba(0, 25, 49, 1));
+    padding: 120px 120px 30px 120px;
+}
+.footer-container{
+   
+width: 1100px;
+height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-social p{
+    color: rgba(255, 255, 255, 1);
+font-style: Medium;
+font-size: 20px;
+font-weight: 500;
+line-height: 28px;
+text-align: center;
+
+}
+.footer-social a{
+    width: 92px;
+height: 20px;
+gap: 16;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+ .down p{
+    color: #FFFFFF;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: flex-end;
+ }
+
+
 
